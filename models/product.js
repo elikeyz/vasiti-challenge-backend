@@ -18,9 +18,7 @@ module.exports = (sequelize, DataTypes) => {
   };
   Product.init({
     product_name: DataTypes.STRING,
-    product_description: DataTypes.STRING,
-    date_uploaded: DataTypes.DATE,
-    date_edited: DataTypes.DATE
+    product_description: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Product',

@@ -22,7 +22,7 @@ module.exports = (sequelize, DataTypes) => {
     color: DataTypes.STRING,
     quantity: DataTypes.INTEGER,
     price: DataTypes.NUMERIC,
-    images: DataTypes.ARRAY(DataTypes.STRING)
+    images: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'ProductVariety',
